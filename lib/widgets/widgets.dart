@@ -1,4 +1,4 @@
-export 'app_logo.dart';
+export '../pages/splash/components/app_logo.dart';
 export 'comment_tile.dart';
 export 'comments_bottom_sheet.dart';
 export 'error_image_widget.dart';

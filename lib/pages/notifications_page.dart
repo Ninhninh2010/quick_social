@@ -41,11 +41,11 @@ class _NotificationsPageState extends State<NotificationsPage>
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('Notifikasi', style: textTheme.headlineSmall),
+                  Text('Notification', style: textTheme.headlineSmall),
                   TextButton.icon(
                     onPressed: readAll,
                     icon: const Icon(Icons.check),
-                    label: const Text('Tandai telah dibaca'),
+                    label: const Text('Mark as read'),
                   ),
                 ],
               ),
